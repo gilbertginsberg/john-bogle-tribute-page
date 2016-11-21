@@ -20,8 +20,9 @@ h1 {
   margin-bottom: 1%;
 }
 
-p {
-  display: inline;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 figcaption {
