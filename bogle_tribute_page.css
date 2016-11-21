@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 body {
-    margin: 40px;
     color: white;
     background-color: #D4CFC3;
     font-family: 'Roboto Condensed', sans-serif;
@@ -23,6 +22,7 @@ h1 {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 figcaption {
@@ -52,18 +52,30 @@ a:active {
   color: #5C8033;
 }
 
-.container {
+footer {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+a[href="http://gilbertginsberg.org"] {
+ color: #003C69;
+}
+
+
+.italic {
+  font-style: italic;
+}
+
+.flex-container {
   width: 75%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 1%;
   border-radius: 5px;
   background: #540B10;
-  background: -webkit-linear-gradient(180deg, #540B10, #781017); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(180deg, #540B10, #781017); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(180deg, #540B10, #781017; /* For Firefox 3.6 to 15 */
+  background: -moz-linear-gradient(180deg, #540B10, #781017); /* For Firefox 3.6 to 15 */
   background: linear-gradient(180deg, #540B10, #781017); /* Standard syntax */
 }
