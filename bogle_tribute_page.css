@@ -1,6 +1,13 @@
 /* John Bogle Tribute Page CSS */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
+@media screen and (min-device-width: 420px) {
+  p {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
 body {
     color: white;
     background-color: #D4CFC3;
@@ -14,9 +21,19 @@ header, figure {
   align-items: center;
 }
 
+p {
+  padding-right: 1%;
+  padding-left: 5%;
+}
+
 h1 {
   font-size: 3em;
   margin-bottom: 1%;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
 
 img {
