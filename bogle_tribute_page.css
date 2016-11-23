@@ -1,10 +1,10 @@
 /* John Bogle Tribute Page CSS */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
-@media screen and (min-device-width: 420px) {
-  p {
-    padding-right: 0px;
-    padding-left: 0px;
+@media screen and (max-width: 815px) {
+body p {
+  padding-right: 1%;
+  padding-left: 5%;
   }
 }
 
@@ -19,11 +19,7 @@ header, figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-p {
-  padding-right: 1%;
-  padding-left: 5%;
+  flex-wrap: wrap;
 }
 
 h1 {
@@ -78,7 +74,6 @@ footer {
 a[href="http://gilbertginsberg.org"] {
  color: #003C69;
 }
-
 
 .italic {
   font-style: italic;
